@@ -5,7 +5,7 @@ public class Main {
         Inventory inventory = new Inventory();
 
         Item item1 = new Item("Apples", 20);
-        Item item2 = new Item(name: "Sword ", quantity: 2);
+        Item item2 = new Item("Sword ", 2);
 
 
         inventory.addItem(item1);
