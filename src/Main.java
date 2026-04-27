@@ -8,7 +8,10 @@ public class Main {
         Item item2 = new Item(name: "Sword ", quantity: 2);
 
 
-        inventory.addItem();
+        inventory.addItem(item1);
+        inventory.addItem(item2);
+
+        inventory.displayInventory();
     }
 
 
