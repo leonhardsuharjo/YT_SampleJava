@@ -9,7 +9,7 @@ public class Main {
         Item item2 = new Item("Sword ", 2);
         */
         Item item = new Item( "Generic Item", 10);
-        Fruit fruit = new Fruit("Apple", 20, "Fuji");
+        Fruit fruit = new Fruit("Apple", 20,  "Fuji");
 
         inventory.addItem(item);
         inventory.addItem(fruit);
