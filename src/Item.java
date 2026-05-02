@@ -14,4 +14,10 @@ public class Item {
     public int getQuantity(){
         return quantity;
     }
+
+    @Override
+    public String toString() {
+        System.out.println("Item: " + name() + ", Quantity: " + quantity());
+    }
+
 }
