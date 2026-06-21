@@ -8,16 +8,16 @@ public class Inventory {
         items = new ArrayList<>(); // ASSIGNING an arraylist
     }
 
-    public void addItem(Item item) { // Item != item
-        items.add(item);
-    }
+    //public void addItem(Item item) { // Item != item
+        //items.add(item);
+    //}
 
     public void addItem(String name, int quantity, String type){
         items.add(new Fruit(name, quantity, type));
     }
 
     public void addItem(String name, int quantity, String type){
-        items.add(new weapon());
+        items.add(new weapon(name, quantity, type));
     }
 
 
